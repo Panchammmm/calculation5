@@ -39,7 +39,7 @@ button:active {
   background-color: #777;
 }
 
-/* .brain-storm[data-v-7742db16] {
+.brain-storm[data-v-7742db16] {
     position: fixed;
     top: 0;
     left: 0;
@@ -54,4 +54,4 @@ button:active {
     gap: 32px;
     background-size: cover;
     background-image: var(--bg-image);
-} */
+}
