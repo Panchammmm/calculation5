@@ -1,3 +1,8 @@
+/* element.style {
+    --bg-image: url(/editor-assets/Background-6ec33546.jpg);
+    --bg-image-portrait: url(/editor-assets/BackgroundPortrait-655e6067.jpg);
+} */
+
 .calculator {
   width: 200px;
   margin: 0 auto;
@@ -32,4 +37,21 @@ button:hover {
 
 button:active {
   background-color: #777;
+}
+
+.brain-storm[data-v-7742db16] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 300;
+    background-color: #000000b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    background-size: cover;
+    background-image: var(--bg-image);
 }
