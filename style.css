@@ -1,8 +1,7 @@
 .calculator {
-  width: 200px;
+  width: 240px;
   margin: 0 auto;
   padding: 10px;
-  opacity: 1;
   border-radius: 10px;
   border: 1px solid rgb(130, 119, 119);
 }
@@ -33,6 +32,19 @@ button:hover {
 
 button:active {
   background-color: #dfd8d8;
+}
+
+button#backspace {
+  background-color: #f4c2c2;
+  color: #fff;
+}
+
+button#backspace:hover {
+  background-color: #e59999;
+}
+
+button#backspace:active {
+  background-color: #ecb2b2;
 }
 
 .brain-storm[data-v-7742db16] {

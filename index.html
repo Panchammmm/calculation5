@@ -13,7 +13,6 @@
 
 			<input type="text" id="result" disabled>
 			<div class="buttons">
-				<!-- Buttons for calculator -->
 				<button onclick="display('1')">1</button>
 				<button onclick="display('2')">2</button>
 				<button onclick="display('3')">3</button>
@@ -30,6 +29,10 @@
 				<button onclick="display('.')">.</button>
 				<button onclick="calculate()">=</button>
 				<button onclick="display('/')">/</button>
+				<button onclick="display('e')">e</button>
+				<button onclick="calculateSpecial('log')">log</button>
+				<button onclick="calculateSpecial('%')">%</button>
+				<button onclick="backspace()">⌫</button>
 				<button onclick="clearField()">C</button>
 			</div>
 		</div>
