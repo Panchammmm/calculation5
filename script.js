@@ -9,7 +9,7 @@ function display(value) {
 // Function to evaluate the expression
 function calculate() {
   try {
-    resultField.value = eval(resultField.value);
+    resultField.value = evaluateExpression(resultField.value);
   } catch (error) {
     resultField.value = 'Error';
   }
@@ -18,4 +18,9 @@ function calculate() {
 // Function to clear the input field
 function clearField() {
   resultField.value = '';
+}
+
+// Custom function to evaluate expression without using eval
+function evaluateExpression(expression) {
+  return Function('"use strict";return (' + expression + ')')();
 }
